@@ -60,7 +60,7 @@ Seek and destroy those instances!
 
 Horizontalize Bob (Brent).
 
-Empathy! Watch the David Foster Wallace commencement speech.
+Empathy! Watch the David Foster Wallace commencement speech. https://www.youtube.com/watch?v=8CrOL-ydFMI
 
 "I didn't realize, I just thought you guys weren't that efficient".
 
