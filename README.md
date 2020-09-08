@@ -33,7 +33,7 @@ Where in the hierarchy should a DevOps transformation start? Ideal scenario is t
 
 If you love your company / want to stay there. Do the grind.
 
-Courtney Kissler - Nike
+Courtney Kissler - Nike https://www.youtube.com/watch?v=J-vT4BjEYL0
 
 Top 3 problems for struggling companies:
  - Consistency
