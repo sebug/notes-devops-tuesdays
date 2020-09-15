@@ -64,5 +64,49 @@ Empathy! Watch the David Foster Wallace commencement speech. https://www.youtube
 
 "I didn't realize, I just thought you guys weren't that efficient".
 
+## September 15 - Security Learns To Sprint
+By Tanya Janca @SheHacksPurple
+
+Alice And Bob Learn Application Security
+
+Do your job as securely as you know how to do.
+
+If Software Developers are sprinting, Security Folks are sprinting too - so you'll have to organize accordingly.
+
+Poor AppSec causes between 29 and 40% of breaches. *Insecure Software is a Disaster*.
+
+### Security is Outnumbered
+Dev / Ops / Sec : 100 / 10 / 1
+
+### DevSecOps
+
+- Emphasize the efficiency of the *entire* system
+- Fast Feedback
+- Continuous Learning
+
+CIA Triangle: Confidentiality, Integrity, Availability
+
+Security doesn't win if the business doesn't also win.
+
+### What does that mean for your pipeline?
+- Severe Security Bugs break the build
+
+### What does it mean for Security
+- Can't be the bottleneck
+- Only break if it's actually important
+- Break security activites in smaller pieces
+- Just make a pipeline that goes nowhere, doesn't stop your regular pipeline.
+- Write libraries
+- Buy licences for the security tools you expect the team to use!
+- Provide feedback as early as possible
+
+### What do you need to do as a Dev?
+- Provide Feedback on the tools
+- Participate in security activities
+
+### Question: Would you run those security tools in prod?
+Sometimes. Good example is the Canadian Army - they have a team constantly cyber attacking their colleges, just to stay vigilant.
+
+Problems: Load, the tools themselves may not be ultra secure. Maybe after hours.
 
 
