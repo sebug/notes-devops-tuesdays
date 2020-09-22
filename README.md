@@ -132,3 +132,38 @@ Kibble observes dogfood observes production (those are not staging environments 
 
 ### How did they start improving?
 - with lead time: hours to deploy a change
+- change fail rate goes down. If you mess up, deactivate the feature and fix forward
+- feature flags are meant to be temporary to avoid exploding combinations (a dozen feature flags at the same time max) - this works because there's not a lot in-flight (methinks: so maybe not start with that when your lead time is still long)
+
+
+Question: When do you look? When the feature is used: may be today, may be in a couple of weeks - so that's where observability comes in, you really get a feel when the feature gets used.
+
+Who looks? Mostly devs.
+
+
+### On the infrastructure side
+Keep it simple (no conference-driven decisions). Automate the painful parts.
+
+They use raw VMs - start where you're at. But: Infra hygiene!
+
+Hosted Terraform - release from the website.
+
+Feature flags for infra as well (mainly who gets which instances I guess?)
+
+Use SLOs to determine whether the errors are not too bad - allowed unavailability.
+
+### Sample SLOs
+Ingest: 4 nines
+
+Dashboard: 3 nines
+
+Queries: 99% in under 10 seconds
+
+So what did that mean for the ten minute outage that was the example? They burned through the whole error budget quite quickly. Then it's important to communicate.
+
+What happened: They deployed empty binaries.
+
+What they did: Stop the presses, improve stability before going back to features.
+
+Slides etc: https://www.honeycomb.io/shelby
+
