@@ -109,4 +109,8 @@ Sometimes. Good example is the Canadian Army - they have a team constantly cyber
 
 Problems: Load, the tools themselves may not be ultra secure. Maybe after hours.
 
+## September 22 - Fast And Simple: Observing Code and Infra Deployments at Honeycomb
+Shelby Spees @shelbyspees
+
+
 
