@@ -112,5 +112,23 @@ Problems: Load, the tools themselves may not be ultra secure. Maybe after hours.
 ## September 22 - Fast And Simple: Observing Code and Infra Deployments at Honeycomb
 Shelby Spees @shelbyspees
 
+They are a similar size - a dozen people.
 
+As long as people are working, changes roll out (from 10 to 14 times a day).
 
+### What does it look like to ship to prod?
+- Observability-driven development: How will it look like when the feature is deployed in prod?
+- Tests (functional and UI)
+- Feature flags ("no-op deploys" - put the changes in prod not enabled for anybody).
+- Builds shorter than 10 minutes
+- Automated review
+- Human PR review (review everything, then you don't have to judge whether it's worth it)
+- Observe behavior in prod
+
+### Dogfooding
+Observe Honeycomb with Honeycomb.
+
+Kibble observes dogfood observes production (those are not staging environments but real ones).
+
+### How did they start improving?
+- with lead time: hours to deploy a change
