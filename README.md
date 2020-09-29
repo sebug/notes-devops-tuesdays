@@ -168,5 +168,29 @@ What they did: Stop the presses, improve stability before going back to features
 Slides etc: https://www.honeycomb.io/shelby
 
 ## September 29: Building and operating applications in the cloud
-Seth Vargo
+Seth Vargo (Learning Chef, SRE...)
+
+### SRE
+Care deeply about
+
+- Scale
+- Reducing toil
+- Automating as much as possible
+
+### We probably don't need an SRE person
+Whenever the reliability of the system is someone's full time job. That person
+should report to an engineering manager.
+
+### Google SLOs can be accessed by everyone in the company
+
+### SLO is an unavailability target
+The point is not to beat the SLO, meet it. If you're exceeding the SLO, you're
+delivering more availability than you promised.
+
+Intentionally take down the service to meet SLO, that way downstream consumers
+have to build error handling in.
+
+### SRE is not an excuse for your developers not to be on call
+SRE "guiding czars"
+
 
