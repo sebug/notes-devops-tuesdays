@@ -167,3 +167,6 @@ What they did: Stop the presses, improve stability before going back to features
 
 Slides etc: https://www.honeycomb.io/shelby
 
+## September 29: Building and operating applications in the cloud
+Seth Vargo
+
