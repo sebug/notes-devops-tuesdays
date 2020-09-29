@@ -193,4 +193,12 @@ have to build error handling in.
 ### SRE is not an excuse for your developers not to be on call
 SRE "guiding czars"
 
+### Measuring deploys is always the wrong metric
+If you don't deploy to production often you can also measure on another
+environment.
+
+At Google, deploying a feature is a separate task from activating it. They
+deploy dead code *a lot*.
+
+
 
